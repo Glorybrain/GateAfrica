@@ -214,6 +214,7 @@
 	overflow: hidden;
 }
 #v-hero .v-hero-content .v-hero-text {
+	text-decoration: underline;
 	color: var(--white);
 	font-size: 2.5rem;
 }
