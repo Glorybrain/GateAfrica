@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="./assets/media/images/CardifyFavicon.png" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="./assets/media/images/CardifyFavicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="./assets/css/cardify.default.css" />
+		<link rel="stylesheet" href="./assets/css/cardify.index.css" />
+		<link rel="stylesheet" href="./assets/css/cardify.modals.css" />
+		<link rel="stylesheet" href="./assets/css/cardify.media-query.css" />
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
+
+		<title>Cards Cardify - Landing Page</title>
+	</head>
+	<body>
+		<div class="v-layer-wrapper">
+			<!-- hero @::start -->
+			<section class="v-each-section position-relative" id="v-hero">
+				<div class="v-hero-inner col-xl-9 mx-auto position-relative">
+					<header id="v-header" class="v-variant">
+						<div class="container-xl p-lg-0">
+							<div class="row col-11 px-md-2 mx-auto align-items-center justify-content-between">
+								<div class="col-7 col-lg-8 p-0 row m-0 align-items-center justify-content-between">
+									<figure class="v-logo-image p-0 col-8 col-md-2" role="img" title="Cardify Logo">
+										<a href="">
+											<img src="./assets/media/svg/cardify-white-variant-logo.svg" alt="" class="img-fluid" />
+										</a>
+									</figure>
+									<nav class="v-navigation col-8 d-none d-lg-block p-0">
+										<ul class="v-navigation-inner column-gap-4">
+											<li class="v-each-link">
+												<a href="" class="v-link"> Home </a>
+											</li>
+											<li class="v-each-link v-product">
+												<button type="button" class="v-link" data-toggler="product">Product</button>
+												<div data-receiver="product" class="v-dropdown-container">
+													<ul class="v-grid-container v-two">
+														<li class="v-each-grid-item">
+															<a href="https://cards.cardify.co/beta/index.html">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="M3.464 20.536C4.93 22 7.286 22 12 22c4.714 0 7.071 0 8.535-1.465C22 19.072 22 16.714 22 12s0-7.071-1.465-8.536C19.072 2 16.714 2 12 2S4.929 2 3.464 3.464C2 4.93 2 7.286 2 12c0 4.714 0 7.071 1.464 8.535"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M5 8.5v-1A1.5 1.5 0 0 1 6.5 6h11A1.5 1.5 0 0 1 19 7.5v1a2.489 2.489 0 0 0-1.5-.5h-11c-.563 0-1.082.186-1.5.5m0 3v-1A1.5 1.5 0 0 1 6.5 9h11a1.5 1.5 0 0 1 1.5 1.5v1a2.49 2.49 0 0 0-1.5-.5h-11a2.49 2.49 0 0 0-1.5.5M20.75 15a.75.75 0 0 0-.75-.75h-1.02v-1A1.5 1.5 0 0 0 17.5 12h-11a1.5 1.5 0 0 0-1.48 1.25v1H4a.75.75 0 0 0 0 1.5h2.301c.87 0 1.098.013 1.293.092l.061.027c.19.09.355.25.943.889l.036.038l.075.083c.438.476.783.852 1.236 1.08c.084.041.17.08.258.113c.474.18.985.179 1.631.178h.218c.611 0 1.094.001 1.547-.161c.084-.03.167-.064.248-.103c.434-.205.775-.547 1.207-.98l.075-.074l.23-.23c.621-.621.793-.775.991-.857c.198-.082.428-.095 1.307-.095H20a.75.75 0 0 0 .75-.75"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Dollar Cards</b>
+																	</h6>
+																	<span class="v-link-text">Create &amp; fund cards with NGN &amp; USDT </span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="https://business.cardify.co/beta/index.html">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="m22 12.818l-.409-.409a2.25 2.25 0 0 0-3.182 0l-.801.801a2.251 2.251 0 0 0-4.358.79v1.764a2.25 2.25 0 0 0-1.341 3.827l.409.409H10c-3.771 0-5.657 0-6.828-1.172C2 17.657 2 15.771 2 12c0-.442.002-1.608.004-2H22c.002.392 0 1.558 0 2z"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M5.25 16a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75M9.995 4h4.01c3.781 0 5.672 0 6.846 1.116c.846.803 1.083 1.96 1.149 3.884v1H2V9c.066-1.925.303-3.08 1.149-3.884C4.323 4 6.214 4 9.995 4m9.475 9.47a.75.75 0 0 1 1.06 0l2 2a.75.75 0 1 1-1.06 1.06l-.72-.72V20a.75.75 0 0 1-1.5 0v-4.19l-.72.72a.75.75 0 1 1-1.06-1.06z"></path>
+																		<path
+																			fill="currentColor"
+																			fill-rule="evenodd"
+																			d="M15.5 13.25a.75.75 0 0 1 .75.75v4.19l.72-.72a.75.75 0 1 1 1.06 1.06l-2 2a.75.75 0 0 1-1.06 0l-2-2a.75.75 0 1 1 1.06-1.06l.72.72V14a.75.75 0 0 1 .75-.75"
+																			clip-rule="evenodd"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Digital Cards</b>
+																	</h6>
+																	<span class="v-link-text">Get a digital business card</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="https://bills.cardify.co/beta/index.html">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="M7.245 2h9.51c1.159 0 1.738 0 2.206.163a3.045 3.045 0 0 1 1.881 1.936C21 4.581 21 5.177 21 6.37v14.004c0 .858-.985 1.314-1.608.744a.946.946 0 0 0-1.284 0l-.483.442a1.657 1.657 0 0 1-2.25 0a1.657 1.657 0 0 0-2.25 0a1.657 1.657 0 0 1-2.25 0a1.657 1.657 0 0 0-2.25 0a1.657 1.657 0 0 1-2.25 0l-.483-.442a.946.946 0 0 0-1.284 0c-.623.57-1.608.114-1.608-.744V6.37c0-1.193 0-1.79.158-2.27c.3-.913.995-1.629 1.881-1.937C5.507 2 6.086 2 7.245 2"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M7 6.75a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5zm3.5 0a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 0-1.5zM7 10.25a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5zm3.5 0a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 0-1.5zM7 13.75a.75.75 0 0 0 0 1.5h.5a.75.75 0 0 0 0-1.5zm3.5 0a.75.75 0 0 0 0 1.5H17a.75.75 0 0 0 0-1.5z"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Bills</b>
+																	</h6>
+																	<span class="v-link-text">Pay bills with NGN &amp; USDT</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="https://store.cardify.co/beta/index.html">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<g fill="none">
+																			<path
+																				fill="currentColor"
+																				d="m3.603 6.493l.894-2.236A2 2 0 0 1 6.354 3h11.292a2 2 0 0 1 1.857 1.257l.894 2.236A2 2 0 0 1 19.65 8.9l-.54.36a2.001 2.001 0 0 1-2.22 0L15 8l-1.89 1.26a2 2 0 0 1-2.22 0L9 8L7.11 9.26a2 2 0 0 1-2.22 0l-.54-.36a2 2 0 0 1-.747-2.407"
+																				opacity="0.16"></path>
+																			<path
+																				stroke="currentColor"
+																				stroke-linecap="round"
+																				stroke-linejoin="round"
+																				stroke-width="2"
+																				d="M3 21h2m16 0h-2M5 21h14M5 21V9.328M19 21V9.328m-14 0a2.001 2.001 0 0 1-.11-.068l-.54-.36a2 2 0 0 1-.747-2.407l.894-2.236A2 2 0 0 1 6.354 3h11.292a2 2 0 0 1 1.857 1.257l.894 2.236A2 2 0 0 1 19.65 8.9l-.54.36a2.001 2.001 0 0 1-.11.068m-14 0a2 2 0 0 0 2.11-.068L9 8l1.89 1.26a2 2 0 0 0 2.22 0L15 8l1.89 1.26a2 2 0 0 0 2.11.068"></path>
+																			<path stroke="currentColor" stroke-width="2" d="M14 21v-5a2 2 0 1 0-4 0v5"></path>
+																		</g>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Cardify Store</b>
+																	</h6>
+																	<span class="v-link-text">Buy tech gadgets on the go</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="https://giftcards.cardify.co/beta/index.html">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<g fill="none">
+																			<path fill="currentColor" d="M4 19v-7h16v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2" opacity="0.16"></path>
+																			<path
+																				stroke="currentColor"
+																				stroke-linecap="round"
+																				stroke-linejoin="round"
+																				stroke-width="2"
+																				d="M12 12v8m-8-9v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8"></path>
+																			<path
+																				stroke="currentColor"
+																				stroke-linejoin="round"
+																				stroke-width="2"
+																				d="M6 4.5A2.5 2.5 0 0 1 8.5 2A3.5 3.5 0 0 1 12 5.5V7H8.5A2.5 2.5 0 0 1 6 4.5zm12 0A2.5 2.5 0 0 0 15.5 2A3.5 3.5 0 0 0 12 5.5V7h3.5A2.5 2.5 0 0 0 18 4.5z"></path>
+																			<path
+																				stroke="currentColor"
+																				stroke-linecap="round"
+																				stroke-linejoin="round"
+																				stroke-width="2"
+																				d="M3 7h18v4H3zm9 4v10"></path>
+																		</g>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Gift Cards</b>
+																	</h6>
+																	<span class="v-link-text">Buy &amp; sell unused gift cards</span>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="v-each-link v-company">
+												<button type="button" class="v-link" data-toggler="company">Company</button>
+												<div data-receiver="company" class="v-dropdown-container">
+													<ul class="v-grid-container v-two">
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="m20.27 16.265l.705-4.08a1.666 1.666 0 0 0-1.64-1.95h-5.182a.833.833 0 0 1-.821-.969l.663-4.045a4.781 4.781 0 0 0-.09-1.973a1.635 1.635 0 0 0-1.093-1.137l-.145-.047a1.346 1.346 0 0 0-.993.068c-.34.164-.588.463-.68.818l-.476 1.834a7.629 7.629 0 0 1-.656 1.679c-.416.777-1.058 1.4-1.725 1.975l-1.44 1.24a1.67 1.67 0 0 0-.572 1.406l.813 9.393A1.666 1.666 0 0 0 8.596 22h4.649c3.481 0 6.452-2.426 7.024-5.735"></path>
+																		<path
+																			fill="currentColor"
+																			fill-rule="evenodd"
+																			d="M2.968 9.485a.75.75 0 0 1 .78.685l.97 11.236a1.237 1.237 0 1 1-2.468.107V10.234a.75.75 0 0 1 .718-.749"
+																			clip-rule="evenodd"
+																			opacity="0.5"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>About us</b>
+																	</h6>
+																	<span class="v-link-text">About Cardify Africa </span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<rect
+																			width="16"
+																			height="12"
+																			x="4"
+																			y="6"
+																			fill="currentColor"
+																			fill-opacity="0.25"
+																			stroke="currentColor"
+																			stroke-width="1.2"
+																			rx="2"></rect>
+																		<path
+																			fill="currentColor"
+																			d="M11.106 12.553L4 9v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9l-7.106 3.553a2 2 0 0 1-1.788 0"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Contact us</b>
+																	</h6>
+																	<span class="v-link-text">Get in touch with Cardify Africa</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			fill-rule="evenodd"
+																			d="M12.763 6.192c-.601.416-.902.625-1.238.746v10.124c.336.121.637.33 1.238.746c2.374 1.645 3.56 2.467 4.557 2.11a2.14 2.14 0 0 0 .541-.29c.861-.635.927-2.115 1.058-5.073A70.3 70.3 0 0 0 19 12c0-.521-.033-1.46-.081-2.555c-.131-2.958-.197-4.438-1.058-5.073a2.125 2.125 0 0 0-.54-.29c-.997-.357-2.184.465-4.558 2.11"
+																			clip-rule="evenodd"></path>
+																		<path
+																			fill="currentColor"
+																			d="M5.681 8.163c-.621.789-.64 1.71-.678 3.552a13.778 13.778 0 0 0 0 .57c.038 1.841.057 2.762.678 3.551c.113.144.28.315.42.431c.763.635 1.771.635 3.788.635c.72 0 1.081 0 1.425.093c.071.02.142.042.211.067V6.937c-.07.026-.14.048-.211.067c-.344.093-.704.093-1.425.093c-2.017 0-3.025 0-3.789.635c-.14.116-.306.287-.419.431"
+																			opacity="0.5"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Career</b>
+																	</h6>
+																	<span class="v-link-text">Career at Cardify Africa</span>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+											<li class="v-each-link v-faq">
+												<a href="" class="v-link">FAQs</a>
+											</li>
+											<li class="v-each-link v-resources">
+												<button type="button" data-toggler="resources" class="v-link">Resources</button>
+												<div data-receiver="resources" class="v-dropdown-container">
+													<ul class="v-grid-container v-two">
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="m13.629 20.472l-.542.916c-.483.816-1.69.816-2.174 0l-.542-.916c-.42-.71-.63-1.066-.968-1.262c-.338-.197-.763-.204-1.613-.219c-1.256-.021-2.043-.098-2.703-.372a5 5 0 0 1-2.706-2.706C2 14.995 2 13.83 2 11.5v-1c0-3.273 0-4.91.737-6.112a5 5 0 0 1 1.65-1.651C5.59 2 7.228 2 10.5 2h3c3.273 0 4.91 0 6.113.737a5 5 0 0 1 1.65 1.65C22 5.59 22 7.228 22 10.5v1c0 2.33 0 3.495-.38 4.413a5 5 0 0 1-2.707 2.706c-.66.274-1.447.35-2.703.372c-.85.015-1.275.022-1.613.219c-.338.196-.548.551-.968 1.262"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M7.25 9A.75.75 0 0 1 8 8.25h8a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 9m0 3.5a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 0 1.5H8a.75.75 0 0 1-.75-.75"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Blog</b>
+																	</h6>
+																	<span class="v-link-text">Latest news, events, newsletters etc</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+																		<g fill="currentColor">
+																			<path
+																				d="M226.59 71.53a16 16 0 0 0-9.63-11C183.48 47.65 128 48 128 48s-55.48-.35-89 12.58a16 16 0 0 0-9.63 11C27.07 80.54 24 98.09 24 128s3.07 47.46 5.41 56.47A16 16 0 0 0 39 195.42C72.52 208.35 128 208 128 208s55.48.35 89-12.58a16 16 0 0 0 9.63-10.95c2.34-9 5.41-26.56 5.41-56.47s-3.11-47.46-5.45-56.47M112 160V96l48 32Z"
+																				opacity="0.2"></path>
+																			<path
+																				d="m164.44 121.34l-48-32A8 8 0 0 0 104 96v64a8 8 0 0 0 12.44 6.66l48-32a8 8 0 0 0 0-13.32M120 145.05V111l25.58 17Zm114.33-75.53a24 24 0 0 0-14.49-16.4C185.56 39.88 131 40 128 40s-57.56-.12-91.84 13.12a24 24 0 0 0-14.49 16.4C19.08 79.5 16 97.74 16 128s3.08 48.5 5.67 58.48a24 24 0 0 0 14.49 16.41C69 215.56 120.4 216 127.34 216h1.32c6.94 0 58.37-.44 91.18-13.11a24 24 0 0 0 14.49-16.41c2.59-10 5.67-28.22 5.67-58.48s-3.08-48.5-5.67-58.48m-15.49 113a8 8 0 0 1-4.77 5.49c-31.65 12.22-85.48 12-86.12 12s-54.37.18-86-12a8 8 0 0 1-4.77-5.49C34.8 173.39 32 156.57 32 128s2.8-45.39 5.16-54.47A8 8 0 0 1 41.93 68c31.65-12.18 85.47-12 86.12-12s54.37-.18 86 12a8 8 0 0 1 4.77 5.49C221.2 82.61 224 99.43 224 128s-2.8 45.39-5.16 54.47Z"></path>
+																		</g>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Youtube channel</b>
+																	</h6>
+																	<span class="v-link-text">Watch Cardify videos</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="M7.426 18H20c-.003.93-.022 1.623-.113 2.17c-.11.653-.31.998-.616 1.244c-.307.246-.737.407-1.55.494c-.837.09-1.946.092-3.536.092h-4.43c-1.59 0-2.7-.001-3.536-.092c-.813-.087-1.243-.248-1.55-.494c-.306-.246-.506-.591-.616-1.243a5.233 5.233 0 0 1-.022-.151c-.04-.291-.06-.437.066-.78c.127-.344.181-.397.291-.505a2.62 2.62 0 0 1 1.285-.667c.29-.062.67-.068 1.753-.068"></path>
+																		<path
+																			fill="currentColor"
+																			d="M4.727 2.733c.306-.308.734-.508 1.544-.618C7.105 2.002 8.209 2 9.793 2h4.414c1.584 0 2.688.002 3.522.115c.81.11 1.238.31 1.544.618c.305.308.504.74.613 1.557c.112.84.114 1.955.114 3.552V18H7.426c-1.084 0-1.462.006-1.753.068c-.513.11-.96.347-1.285.667c-.11.108-.164.161-.291.505A1.273 1.273 0 0 0 4 19.7V7.842c0-1.597.002-2.711.114-3.552c.109-.816.308-1.249.613-1.557"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M7.25 7A.75.75 0 0 1 8 6.25h8a.75.75 0 0 1 0 1.5H8A.75.75 0 0 1 7.25 7M8 9.75a.75.75 0 0 0 0 1.5h5a.75.75 0 0 0 0-1.5z"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Knowledgebase</b>
+																	</h6>
+																	<span class="v-link-text">How to articles and videos</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="M3.464 3.464C4.93 2 7.286 2 12 2c4.714 0 7.071 0 8.535 1.464C22 4.93 22 7.286 22 12c0 4.714 0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12s0-7.071 1.464-8.536"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			fill-rule="evenodd"
+																			d="M16.47 1.47a.75.75 0 0 1 1.06 0l5 5a.75.75 0 0 1 0 1.06l-5 5a.75.75 0 1 1-1.06-1.06l3.72-3.72H14c-1.552 0-2.467.757-2.788 1.08l-.19.191l-.193.191c-.322.32-1.079 1.236-1.079 2.788v3a.75.75 0 0 1-1.5 0v-3c0-2.084 1.027-3.36 1.521-3.851l.19-.189l.188-.189C10.64 7.277 11.916 6.25 14 6.25h6.19l-3.72-3.72a.75.75 0 0 1 0-1.06"
+																			clip-rule="evenodd"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Links</b>
+																	</h6>
+																	<span class="v-link-text">A list of cardify links </span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 48">
+																		<defs>
+																			<mask id="ipTMovie0">
+																				<g fill="none" stroke="#fff" stroke-width="4">
+																					<path
+																						fill="#555"
+																						stroke-linejoin="round"
+																						d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z"></path>
+																					<path
+																						fill="#555"
+																						stroke-linejoin="round"
+																						d="M24 18a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm0 18a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm-9-9a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm18 0a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z"></path>
+																					<path stroke-linecap="round" d="M24 44h20"></path>
+																				</g>
+																			</mask>
+																		</defs>
+																		<path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipTMovie0)"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Cardify CSR</b>
+																	</h6>
+																	<span class="v-link-text">Corporate Social Responsibility</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5">
+																			<path
+																				d="M10.046 14c-1.506-1.512-1.37-4.1.303-5.779l4.848-4.866c1.673-1.68 4.25-1.816 5.757-.305c1.506 1.512 1.37 4.1-.303 5.78l-2.424 2.433"></path>
+																			<path
+																				d="M13.954 10c1.506 1.512 1.37 4.1-.303 5.779l-2.424 2.433l-2.424 2.433c-1.673 1.68-4.25 1.816-5.757.305c-1.506-1.512-1.37-4.1.303-5.78l2.424-2.433"
+																				opacity="0.5"></path>
+																		</g>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Brand Assets</b>
+																	</h6>
+																	<span class="v-link-text">Official brand assets</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 256 256">
+																		<g fill="currentColor">
+																			<path
+																				d="M184 40L24 88v24h8a24 24 0 0 1 24 23.54C56.25 149 44.91 160 31.46 160H24v32h56v-8a32 32 0 0 1 64 0v8h80a8 8 0 0 0 8-8V88a48 48 0 0 0-48-48m-16 96a32 32 0 0 1-27.72-48h55.44A32 32 0 0 1 168 136"
+																				opacity="0.35"></path>
+																			<path
+																				d="M184 32a7.8 7.8 0 0 0-2.3.34l-160 48A8 8 0 0 0 16 88v24a8 8 0 0 0 8 8h8a16.08 16.08 0 0 1 16 15.69A15.6 15.6 0 0 1 43.42 147a16.87 16.87 0 0 1-12 5.05H24a8 8 0 0 0-8 8v32a8 8 0 0 0 8 8h200a16 16 0 0 0 16-16V88a56.06 56.06 0 0 0-56-56m1.12 16a40.06 40.06 0 0 1 38.07 32H78.51Zm6.88 56a24 24 0 1 1-46.62-8h45.24a23.9 23.9 0 0 1 1.38 8M88 184a24 24 0 0 1 48 0Zm136 0h-72a40 40 0 0 0-80 0H32v-16a33 33 0 0 0 22.84-9.85A31.4 31.4 0 0 0 64 135.38A32.15 32.15 0 0 0 32 104v-8h96.81a40 40 0 1 0 78.38 0H224Z"></path>
+																		</g>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Cardify Event Videos</b>
+																	</h6>
+																	<span class="v-link-text">Official brand assets</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			d="M1 12c0-5.185 0-7.778 1.61-9.39C4.223 1 6.816 1 12 1c5.185 0 7.778 0 9.39 1.61C23 4.223 23 6.816 23 12c0 5.185 0 7.778-1.61 9.39C19.777 23 17.184 23 12 23c-5.185 0-7.778 0-9.39-1.61C1 19.777 1 17.184 1 12"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M2.61 21.389c1.612 1.61 4.205 1.61 9.39 1.61c5.185 0 7.778 0 9.39-1.61c1.492-1.493 1.601-3.829 1.61-8.29h-3.476c-.996 0-1.494 0-1.931.202c-.438.201-.762.58-1.41 1.335l-.666.777c-.648.756-.972 1.134-1.41 1.335c-.437.202-.935.202-1.93.202h-.353c-.996 0-1.494 0-1.931-.202c-.438-.2-.762-.579-1.41-1.335l-.666-.777c-.648-.756-.972-1.134-1.41-1.335c-.437-.201-.935-.201-1.93-.201H1c.008 4.46.118 6.796 1.61 8.289"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Cardify Ambassadors</b>
+																	</h6>
+																	<span class="v-link-text">Hey, we have the best ambassadors</span>
+																</div>
+															</a>
+														</li>
+														<li class="v-each-grid-item">
+															<a href="">
+																<span class="v-icon">
+																	<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+																		<path
+																			fill="currentColor"
+																			fill-rule="evenodd"
+																			d="M6.977 1.327a.75.75 0 0 1 .175 1.046l-.386.541c.626.474.765 1.364.306 2.007l-.41.576a.75.75 0 0 1-1.222-.871l.386-.542a1.457 1.457 0 0 1-.306-2.007l.411-.575a.75.75 0 0 1 1.046-.175m4 0a.75.75 0 0 1 .175 1.046l-.386.541c.626.474.765 1.364.306 2.007l-.41.576a.75.75 0 1 1-1.222-.871l.386-.542a1.457 1.457 0 0 1-.306-2.007l.411-.575a.75.75 0 0 1 1.046-.175m4 0a.75.75 0 0 1 .175 1.046l-.386.541c.626.474.765 1.364.306 2.007l-.41.576a.75.75 0 1 1-1.222-.871l.386-.542a1.457 1.457 0 0 1-.306-2.007l.411-.575a.75.75 0 0 1 1.046-.175"
+																			clip-rule="evenodd"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			d="M9.613 22h.774c2.66 0 3.991 0 4.856-.81c.67-.626.874-1.564 1.015-3.19H3.742c.14 1.626.344 2.564 1.014 3.19c.865.81 2.196.81 4.856.81"
+																			opacity="0.5"></path>
+																		<path
+																			fill="currentColor"
+																			fill-rule="evenodd"
+																			d="M3.284 11.266c-.133-2-.2-2.999.393-3.632C4.27 7 5.272 7 7.276 7h5.449c2.003 0 3.005 0 3.598.634c.162.173.275.374.35.616H17a4.75 4.75 0 1 1 0 9.5h-.722l-.02.25H3.742a85.855 85.855 0 0 1-.116-1.6zm13.1 4.984H17a3.25 3.25 0 0 0 0-6.5h-.2c-.012.43-.045.93-.084 1.516z"
+																			clip-rule="evenodd"></path>
+																	</svg>
+																</span>
+																<div class="v-link-content">
+																	<h6 class="v-link-title">
+																		<b>Humans of Cardify</b>
+																	</h6>
+																	<span class="v-link-text">Very human oriented</span>
+																</div>
+															</a>
+														</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="col-4 d-flex align-items-center justify-content-end p-0">
+									<nav class="v-navigation v-auth d-none d-lg-flex">
+										<ul class="v-navigation-inner">
+											<li class="v-each-link">
+												<a href="" class="v-link v-login"> Sign in </a>
+											</li>
+											<li class="v-each-link">
+												<a href="" class="v-link v-register"> <b>Create free account</b> </a>
+											</li>
+										</ul>
+									</nav>
+									<div class="d-lg-none d-flex align-items-center">
+										<button
+											type="button"
+											class="v-mobile-menu-toggler"
+											data-bs-toggle="offcanvas"
+											data-bs-target="#staticBackdrop"
+											aria-controls="staticBackdrop">
+											<svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M22,17 L22,19 L2,19 L2,17 L22,17 Z M22,11 L22,13 L2,13 L2,11 L22,11 Z M22,5 L22,7 L2,7 L2,5 L22,5 Z"
+													fill-rule="evenodd"></path>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</header>
+
+					<div class="v-content container-xl mt-4 px-lg-0 position-relative">
+						<div class="row col-11 mx-auto align-items-center align-items-lg-start row-gap-5">
+							<aside class="col-lg p-0 v-aside">
+								<div
+									class="v-hero-content d-flex flex-column row-gap-3 text-center text-lg-start justify-content-center col-12 col-sm-11 col-md-10 mx-auto ms-lg-0 pt-lg-4 me-lg-auto">
+									<h1 class="v-hero-text" data-aos="fade-right">
+										<b>No need to call the gate, save time and track visitors.</b>
+									</h1>
+									<div class="v-hero-text-content d-flex flex-column align-items-center align-items-lg-start row-gap-3 text-center text-lg-start">
+										<div class="v-badge" data-aos="fade-right" data-aos-delay="100">
+											<span class="v-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<path
+														fill="currentColor"
+														d="M3.464 20.536C4.93 22 7.286 22 12 22c4.714 0 7.071 0 8.535-1.465C22 19.072 22 16.714 22 12s0-7.071-1.465-8.536C19.072 2 16.714 2 12 2S4.929 2 3.464 3.464C2 4.93 2 7.286 2 12c0 4.714 0 7.071 1.464 8.535"
+														opacity="0.5" />
+													<path
+														fill="currentColor"
+														d="M5 8.5v-1A1.5 1.5 0 0 1 6.5 6h11A1.5 1.5 0 0 1 19 7.5v1a2.489 2.489 0 0 0-1.5-.5h-11c-.563 0-1.082.186-1.5.5m0 3v-1A1.5 1.5 0 0 1 6.5 9h11a1.5 1.5 0 0 1 1.5 1.5v1a2.49 2.49 0 0 0-1.5-.5h-11a2.49 2.49 0 0 0-1.5.5M20.75 15a.75.75 0 0 0-.75-.75h-1.02v-1A1.5 1.5 0 0 0 17.5 12h-11a1.5 1.5 0 0 0-1.48 1.25v1H4a.75.75 0 0 0 0 1.5h2.301c.87 0 1.098.013 1.293.092l.061.027c.19.09.355.25.943.889l.036.038l.075.083c.438.476.783.852 1.236 1.08c.084.041.17.08.258.113c.474.18.985.179 1.631.178h.218c.611 0 1.094.001 1.547-.161c.084-.03.167-.064.248-.103c.434-.205.775-.547 1.207-.98l.075-.074l.23-.23c.621-.621.793-.775.991-.857c.198-.082.428-.095 1.307-.095H20a.75.75 0 0 0 .75-.75" />
+												</svg>
+											</span>
+											<span class="v-text" data-aos="zoom-out" data-aos-delay="250" style="color: var(--primary-clr)">One time & Stretch Invites</span>
+										</div>
+										<span class="text-white v-text" data-aos="fade-right" data-aos-delay="250">
+											Gate Africa provides secure and flexible access management solutions, allowing residents to issue one-time, stretch, and event-specific invites.
+										</span>
+									</div>
+									<div class="d-flex flex-wrap align-items-center justify-content-center gap-3 justify-content-lg-start mt-2">
+										<a href="" class="v-store-link" data-aos="fade-right" data-aos-delay="400">
+											<figure class="v-store-link-image" title="Playstore Logo">
+												<img src="./assets/media/images/googleplay-store.png" alt="google play logo" class="img-fluid" />
+											</figure>
+										</a>
+										<a href="" class="v-store-link" data-aos="fade-right" data-aos-delay="350">
+											<figure class="v-store-link-image" title="Appstore Logo">
+												<img src="./assets/media/images/app-store.png" alt="appstore logo" class="img-fluid" />
+											</figure>
+										</a>
+									</div>
+								</div>
+							</aside>
+							<aside class="col-lg p-0 v-aside d-flex justify-content-center">
+								<figure class="v-hero-image mx-auto me-lg-0 ms-lg-auto" data-aos="fade-in" data-aos-delay="300">
+									<img src="./assets/media/images/hero-phone-image.png" alt="" class="img-fluid" />
+								</figure>
+							</aside>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- hero @::end -->
+
+			<!-- section @::start-->
+			<section class="v-each-section" id="v-virtual-card">
+				<div class="v-each-section-inner container-lg px-0 py-5">
+					<div class="col-12 col-sm-11 col-lg-12 col-xl-10 mx-auto">
+						<header
+							class="v-section-header text-center d-flex flex-column align-items-center col-md-10 mx-auto mt-3 px-3 px-sm-0 row-gap-2"
+							data-aos="fade-up">
+							<h1 class="v-section-title"><b>Invite Guests in 5 seconds</b></h1>
+							<span class="v-subtext" data-aos="fade-up" data-aos-delay="300">
+								Invite guests quickly and effortlessly with our 5-second guest access feature, ensuring seamless and secure entry for your visitors.
+							</span>
+						</header>
+						<div role="presentation">
+							<div class="row col-12 align-items-stretch justify-content-center m-0 mt-5 v-cards row-gap-3">
+								<!-- each card @::start -->
+								<div class="col-12 col-md-6 col-lg p-0 v-each-card">
+									<div class="v-each-card-inner" data-aos="fade-right" data-aos-delay="300">
+										<div class="v-card-text-content">
+											<h1 class="v-card-title"><b>One Time Invites</b></h1>
+											<span class="v-card-subtext">
+												Utilize the system for one-time invites (lasting up to 1 day), bolstering security by enabling residents to grant temporary access for specific visits and purposes.
+											</span>
+										</div>
+										<figure class="v-phone-image" style="margin-top: -1.75rem" role="img">
+											<img src="./assets/media/images/man-sitting-smiling.png" alt="" class="img-fluid" />
+										</figure>
+									</div>
+								</div>
+								<!-- each card @::end -->
+								<!-- each card @::start -->
+								<div class="col-12 col-md-6 col-lg p-0 v-each-card">
+									<div class="v-each-card-inner" data-aos="fade-right" data-aos-delay="150">
+										<div class="v-card-text-content">
+											<h1 class="v-card-title"><b>Stretch Invites</b></h1>
+											<span class="v-card-subtext">
+												Implement stretch invites (lasting up to 7 days, unless adjusted by the estate administrator), providing flexible access permissions beyond single-use scenarios while adhering to security protocols.
+											</span>
+										</div>
+										<figure class="v-phone-image" style="margin-top: -4rem" role="img">
+											<img src="./assets/media/images/men-shaking.png" alt="" class="img-fluid" />
+										</figure>
+									</div>
+								</div>
+								<!-- each card @::end -->
+								<!-- each card @::start -->
+								<div class="col-12 col-md-6 col-lg p-0 v-each-card">
+									<div class="v-each-card-inner" data-aos="fade-right">
+										<div class="v-card-text-content">
+											<h1 class="v-card-title">
+												<b>Event Invites</b>
+											</h1>
+											<span class="v-card-subtext">
+												Leverage Gate Africa to create a specialized system for event invites, optimizing security measures during community gatherings and functions.
+											</span>
+										</div>
+										<figure class="v-phone-image mt-4" role="img">
+											<img src="./assets/media/images/two-men-shaking.png" alt="" class="img-fluid" />
+										</figure>
+									</div>
+								</div>
+								<!-- each card @::end -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section @::end-->
+
+			<!-- section @::start -->
+			<section class="v-each-section" id="v-presentation">
+				<div class="v-each-section-inner">
+					<div class="row col-12 m-0 align-items-stretch row-gap-3">
+						<div class="v-presentation-content col-lg-7 px-4 px-lg-0 col-12 pb-0 pt-5 py-md-5 mx-auto">
+							<div class="v-presentation-content-inner col-lg-8 col-xl-7 col-xxl-6 mx-auto">
+								<h1 class="v-title text-white" data-aos="fade-down">
+									<b>How Gate Africa Simplified My Estate Living: Abisola's Experience</b>
+								</h1>
+								<span class="v-text d-block mt-3 mb-5 text-white col-lg-11 lh-base" data-aos="fade-down" data-aos-delay="300">
+									"I no longer have to deal with management as much because I use the Gate Africa app to book visitors, pay my power and service
+									charges, and report any issues." Abisola shares her experience as a resident with Gate Africa and some of her favorite app
+									features."
+								</span>
+							</div>
+						</div>
+						<div
+							role="presentation"
+							class="px-0 py-lg-0 mb-5 mb-lg-0 pb-5 col-lg-5 px-4 px-lg-0 col-12 mx-auto"
+							data-aos="zoom-out"
+							data-aos-delay="300">
+							<figure class="v-image">
+								<img src="./assets/media/images/happy-people.png" alt="happy people" class="img-fluid" />
+							</figure>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section @::end -->
+
+			<!--==================== features @::start ====================-->
+			<section class="v-each-section" id="v-features">
+				<div class="v-each-section-inner container-lg py-5">
+					<div class="col-12 col-sm-11 col-lg-12 col-xl-10 mx-auto">
+						<header
+							class="v-section-header text-center d-flex flex-column align-items-center col-md-10 mx-auto mt-3 px-3 px-sm-0 row-gap-2"
+							data-aos="fade-up">
+							<h1 class="v-section-title"><b>Features</b></h1>
+							<span class="v-subtext" data-aos="fade-up" data-aos-delay="300">
+								Access management at Gate Africa
+							</span>
+						</header>
+
+						<div class="v-features">
+							<div class="row mt-5 col-12 m-0 align-items-stretch justify-content-lg-center row-gap-3">
+								<div class="col-12 p-0 v-each-item col-md-4 col-lg-3 col-sm-6">
+									<div class="v-each-item-inner my-2 m-sm-2 d-flex gap-2">
+										<div class="d-flex flex-column align-items-center v-container">
+											<div class="v-box"></div>
+											<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.4089 8.75022C14.7595 9.10076 14.7595 9.66964 14.4089 10.0202L13.3307 11.0983C12.5866 10.4865 11.4852 10.5924 10.8734 11.3398C10.3443 11.9847 10.3443 12.9107 10.8734 13.5556L10.0235 14.4055C9.67296 14.7562 9.10407 14.7562 8.75343 14.4055L3.72982 9.38526L3.25684 7.9829L3.27343 7.97638L7.97626 3.27343L7.9829 3.25684L9.38514 3.72982L14.4089 8.75022ZM9.22973 9.22973L10.4699 8.84613L9.41169 8.09539L9.42817 6.79889L8.38642 7.57618L7.15606 7.15938L7.57286 8.38974L6.79557 9.43149L8.09207 9.41501L8.84281 10.4732L9.22973 9.22973Z" fill="#77F7AA"/>
+												<path d="M10.4699 8.84606L9.22967 9.22967L8.84607 10.47L8.09534 9.41163L6.79895 9.42811L7.5728 8.38635L7.15601 7.15611L8.38636 7.57279L9.42811 6.79883L9.41163 8.09533L10.4699 8.84606Z" fill="#DEFFE8"/>
+												<path d="M7.97619 3.25338L7.98283 3.25658L7.97619 3.27317L3.27336 7.97612L3.25676 7.98264L3.25356 7.97612L1.84468 7.49982L0.594528 6.24966C0.243881 5.89913 0.243881 5.33025 0.594528 4.97971L1.57677 3.99415C2.24476 4.45054 3.17746 4.37455 3.78605 3.78575C4.39454 3.19707 4.45073 2.26117 3.99434 1.57659L4.9799 0.591024C5.33043 0.240492 5.89932 0.240492 6.24985 0.591024L7.5 1.84449L7.97619 3.25338Z" fill="#DEFFE8"/>
+												<path d="M9.61992 3.49494C9.58365 3.45854 9.54062 3.43211 9.49095 3.41563L8.23759 2.9922L7.81416 1.73884C7.79768 1.68918 7.77125 1.64615 7.73485 1.60987L6.4847 0.359716C6.0052 -0.119905 5.22791 -0.119905 4.74841 0.359716L3.76284 1.34196C3.65046 1.45434 3.63387 1.62967 3.72313 1.75864C4.10685 2.33084 4.03739 3.0849 3.55776 3.54781C3.06498 4.02411 2.31093 4.0969 1.76528 3.72313C1.63298 3.63387 1.45766 3.65035 1.34528 3.76284L0.359716 4.74841C-0.119905 5.22791 -0.119905 6.0052 0.359716 6.4847L1.60987 7.73485C1.64615 7.77125 1.68918 7.79768 1.73884 7.81416L2.99231 8.23748L3.41563 9.49095C3.43211 9.54062 3.45854 9.58365 3.49494 9.61992L8.51534 14.6403C8.99496 15.1199 9.77213 15.1199 10.2516 14.6403L11.1016 13.7904C11.224 13.668 11.2306 13.4762 11.1215 13.3439C10.6254 12.7387 10.7147 11.849 11.3166 11.353C11.8392 10.9264 12.5899 10.9264 13.1124 11.353C13.2447 11.4621 13.4365 11.4522 13.5589 11.3331L14.637 10.255C15.1166 9.77545 15.1166 8.99828 14.637 8.51866L9.61992 3.49494ZM2.02323 7.21232L0.826062 6.01504C0.604391 5.79348 0.604391 5.43631 0.826062 5.21475L1.62967 4.41104C2.40363 4.79796 3.36928 4.65251 4.01415 4.02411C4.65582 3.40235 4.8046 2.43338 4.40772 1.63298L5.21143 0.829267C5.43299 0.607709 5.79016 0.607709 6.01183 0.829267L7.209 2.02655L7.59924 3.1808L3.17748 7.60256L2.02323 7.21232ZM14.1741 9.78529L13.2911 10.6683C12.3055 10.0764 11.0288 10.3972 10.4369 11.3795C10.04 12.0376 10.04 12.861 10.4369 13.5192L9.78541 14.1707C9.56373 14.3923 9.20656 14.3923 8.98501 14.1707L4.01747 9.20656L3.63719 8.07875L8.07875 3.63719L9.20656 4.01747L14.174 8.98501C14.3957 9.20656 14.3957 9.56373 14.1741 9.78529Z" fill="#24B361"/>
+												<path d="M10.6618 8.57451L9.74242 7.92632L9.75559 6.80183C9.7589 6.61998 9.61345 6.46777 9.42817 6.46777C9.35539 6.46777 9.28603 6.491 9.22641 6.53403L8.32691 7.20534L7.26192 6.84486C7.09003 6.78535 6.90143 6.87793 6.84192 7.05325C6.81881 7.12272 6.81881 7.19539 6.84192 7.26485L7.20241 8.32984L6.5311 9.22934C6.455 9.32868 6.44504 9.46086 6.50135 9.57335C6.55754 9.68253 6.67324 9.75188 6.79557 9.74856H6.79889L7.92339 9.73872L8.57158 10.6581C8.67744 10.8069 8.88252 10.8433 9.03129 10.7408C9.09091 10.6978 9.13715 10.6382 9.15706 10.5689L9.491 9.49393L10.5659 9.15999C10.7411 9.10701 10.8371 8.92184 10.7842 8.74652C10.7644 8.67705 10.7214 8.61754 10.6618 8.57451ZM9.13383 8.9152C9.03129 8.94828 8.94866 9.02759 8.91559 9.13344L8.73031 9.73208L8.36662 9.22282C8.30379 9.13676 8.20457 9.08721 8.09539 9.08721H8.09207L7.46368 9.09041L7.84076 8.58447C7.90691 8.49853 7.92339 8.38271 7.89031 8.28017L7.68856 7.68485L8.28388 7.88661C8.38642 7.923 8.50212 7.9032 8.58817 7.83706L9.09091 7.45998L9.08428 8.08837C9.08428 8.19755 9.13383 8.30009 9.22309 8.36291L9.73579 8.72672L9.13383 8.9152Z" fill="#24B361"/>
+											</svg>
+										</div>
+										<div class="v-content d-flex flex-column">
+											<span class=""><b>One Time Invites</b></span>
+											<span class="v-text">One time to guests can be used once</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 p-0 v-each-item col-md-4 col-lg-3 col-sm-6">
+									<div class="v-each-item-inner my-2 m-sm-2 d-flex gap-2">
+										<div class="d-flex flex-column align-items-center v-container">
+											<div class="v-box"></div>
+											<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.4089 8.75022C14.7595 9.10076 14.7595 9.66964 14.4089 10.0202L13.3307 11.0983C12.5866 10.4865 11.4852 10.5924 10.8734 11.3398C10.3443 11.9847 10.3443 12.9107 10.8734 13.5556L10.0235 14.4055C9.67296 14.7562 9.10407 14.7562 8.75343 14.4055L3.72982 9.38526L3.25684 7.9829L3.27343 7.97638L7.97626 3.27343L7.9829 3.25684L9.38514 3.72982L14.4089 8.75022ZM9.22973 9.22973L10.4699 8.84613L9.41169 8.09539L9.42817 6.79889L8.38642 7.57618L7.15606 7.15938L7.57286 8.38974L6.79557 9.43149L8.09207 9.41501L8.84281 10.4732L9.22973 9.22973Z" fill="#77F7AA"/>
+												<path d="M10.4699 8.84606L9.22967 9.22967L8.84607 10.47L8.09534 9.41163L6.79895 9.42811L7.5728 8.38635L7.15601 7.15611L8.38636 7.57279L9.42811 6.79883L9.41163 8.09533L10.4699 8.84606Z" fill="#DEFFE8"/>
+												<path d="M7.97619 3.25338L7.98283 3.25658L7.97619 3.27317L3.27336 7.97612L3.25676 7.98264L3.25356 7.97612L1.84468 7.49982L0.594528 6.24966C0.243881 5.89913 0.243881 5.33025 0.594528 4.97971L1.57677 3.99415C2.24476 4.45054 3.17746 4.37455 3.78605 3.78575C4.39454 3.19707 4.45073 2.26117 3.99434 1.57659L4.9799 0.591024C5.33043 0.240492 5.89932 0.240492 6.24985 0.591024L7.5 1.84449L7.97619 3.25338Z" fill="#DEFFE8"/>
+												<path d="M9.61992 3.49494C9.58365 3.45854 9.54062 3.43211 9.49095 3.41563L8.23759 2.9922L7.81416 1.73884C7.79768 1.68918 7.77125 1.64615 7.73485 1.60987L6.4847 0.359716C6.0052 -0.119905 5.22791 -0.119905 4.74841 0.359716L3.76284 1.34196C3.65046 1.45434 3.63387 1.62967 3.72313 1.75864C4.10685 2.33084 4.03739 3.0849 3.55776 3.54781C3.06498 4.02411 2.31093 4.0969 1.76528 3.72313C1.63298 3.63387 1.45766 3.65035 1.34528 3.76284L0.359716 4.74841C-0.119905 5.22791 -0.119905 6.0052 0.359716 6.4847L1.60987 7.73485C1.64615 7.77125 1.68918 7.79768 1.73884 7.81416L2.99231 8.23748L3.41563 9.49095C3.43211 9.54062 3.45854 9.58365 3.49494 9.61992L8.51534 14.6403C8.99496 15.1199 9.77213 15.1199 10.2516 14.6403L11.1016 13.7904C11.224 13.668 11.2306 13.4762 11.1215 13.3439C10.6254 12.7387 10.7147 11.849 11.3166 11.353C11.8392 10.9264 12.5899 10.9264 13.1124 11.353C13.2447 11.4621 13.4365 11.4522 13.5589 11.3331L14.637 10.255C15.1166 9.77545 15.1166 8.99828 14.637 8.51866L9.61992 3.49494ZM2.02323 7.21232L0.826062 6.01504C0.604391 5.79348 0.604391 5.43631 0.826062 5.21475L1.62967 4.41104C2.40363 4.79796 3.36928 4.65251 4.01415 4.02411C4.65582 3.40235 4.8046 2.43338 4.40772 1.63298L5.21143 0.829267C5.43299 0.607709 5.79016 0.607709 6.01183 0.829267L7.209 2.02655L7.59924 3.1808L3.17748 7.60256L2.02323 7.21232ZM14.1741 9.78529L13.2911 10.6683C12.3055 10.0764 11.0288 10.3972 10.4369 11.3795C10.04 12.0376 10.04 12.861 10.4369 13.5192L9.78541 14.1707C9.56373 14.3923 9.20656 14.3923 8.98501 14.1707L4.01747 9.20656L3.63719 8.07875L8.07875 3.63719L9.20656 4.01747L14.174 8.98501C14.3957 9.20656 14.3957 9.56373 14.1741 9.78529Z" fill="#24B361"/>
+												<path d="M10.6618 8.57451L9.74242 7.92632L9.75559 6.80183C9.7589 6.61998 9.61345 6.46777 9.42817 6.46777C9.35539 6.46777 9.28603 6.491 9.22641 6.53403L8.32691 7.20534L7.26192 6.84486C7.09003 6.78535 6.90143 6.87793 6.84192 7.05325C6.81881 7.12272 6.81881 7.19539 6.84192 7.26485L7.20241 8.32984L6.5311 9.22934C6.455 9.32868 6.44504 9.46086 6.50135 9.57335C6.55754 9.68253 6.67324 9.75188 6.79557 9.74856H6.79889L7.92339 9.73872L8.57158 10.6581C8.67744 10.8069 8.88252 10.8433 9.03129 10.7408C9.09091 10.6978 9.13715 10.6382 9.15706 10.5689L9.491 9.49393L10.5659 9.15999C10.7411 9.10701 10.8371 8.92184 10.7842 8.74652C10.7644 8.67705 10.7214 8.61754 10.6618 8.57451ZM9.13383 8.9152C9.03129 8.94828 8.94866 9.02759 8.91559 9.13344L8.73031 9.73208L8.36662 9.22282C8.30379 9.13676 8.20457 9.08721 8.09539 9.08721H8.09207L7.46368 9.09041L7.84076 8.58447C7.90691 8.49853 7.92339 8.38271 7.89031 8.28017L7.68856 7.68485L8.28388 7.88661C8.38642 7.923 8.50212 7.9032 8.58817 7.83706L9.09091 7.45998L9.08428 8.08837C9.08428 8.19755 9.13383 8.30009 9.22309 8.36291L9.73579 8.72672L9.13383 8.9152Z" fill="#24B361"/>
+											</svg>
+										</div>
+										<div class="v-content d-flex flex-column">
+											<span class=""><b>Stretch Invites</b></span>
+											<span class="v-text">Stretch invites for repeated use</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 p-0 v-each-item col-md-4 col-lg-3 col-sm-6">
+									<div class="v-each-item-inner my-2 m-sm-2 d-flex gap-2">
+										<div class="d-flex flex-column align-items-center v-container">
+											<div class="v-box"></div>
+											<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.4089 8.75022C14.7595 9.10076 14.7595 9.66964 14.4089 10.0202L13.3307 11.0983C12.5866 10.4865 11.4852 10.5924 10.8734 11.3398C10.3443 11.9847 10.3443 12.9107 10.8734 13.5556L10.0235 14.4055C9.67296 14.7562 9.10407 14.7562 8.75343 14.4055L3.72982 9.38526L3.25684 7.9829L3.27343 7.97638L7.97626 3.27343L7.9829 3.25684L9.38514 3.72982L14.4089 8.75022ZM9.22973 9.22973L10.4699 8.84613L9.41169 8.09539L9.42817 6.79889L8.38642 7.57618L7.15606 7.15938L7.57286 8.38974L6.79557 9.43149L8.09207 9.41501L8.84281 10.4732L9.22973 9.22973Z" fill="#77F7AA"/>
+												<path d="M10.4699 8.84606L9.22967 9.22967L8.84607 10.47L8.09534 9.41163L6.79895 9.42811L7.5728 8.38635L7.15601 7.15611L8.38636 7.57279L9.42811 6.79883L9.41163 8.09533L10.4699 8.84606Z" fill="#DEFFE8"/>
+												<path d="M7.97619 3.25338L7.98283 3.25658L7.97619 3.27317L3.27336 7.97612L3.25676 7.98264L3.25356 7.97612L1.84468 7.49982L0.594528 6.24966C0.243881 5.89913 0.243881 5.33025 0.594528 4.97971L1.57677 3.99415C2.24476 4.45054 3.17746 4.37455 3.78605 3.78575C4.39454 3.19707 4.45073 2.26117 3.99434 1.57659L4.9799 0.591024C5.33043 0.240492 5.89932 0.240492 6.24985 0.591024L7.5 1.84449L7.97619 3.25338Z" fill="#DEFFE8"/>
+												<path d="M9.61992 3.49494C9.58365 3.45854 9.54062 3.43211 9.49095 3.41563L8.23759 2.9922L7.81416 1.73884C7.79768 1.68918 7.77125 1.64615 7.73485 1.60987L6.4847 0.359716C6.0052 -0.119905 5.22791 -0.119905 4.74841 0.359716L3.76284 1.34196C3.65046 1.45434 3.63387 1.62967 3.72313 1.75864C4.10685 2.33084 4.03739 3.0849 3.55776 3.54781C3.06498 4.02411 2.31093 4.0969 1.76528 3.72313C1.63298 3.63387 1.45766 3.65035 1.34528 3.76284L0.359716 4.74841C-0.119905 5.22791 -0.119905 6.0052 0.359716 6.4847L1.60987 7.73485C1.64615 7.77125 1.68918 7.79768 1.73884 7.81416L2.99231 8.23748L3.41563 9.49095C3.43211 9.54062 3.45854 9.58365 3.49494 9.61992L8.51534 14.6403C8.99496 15.1199 9.77213 15.1199 10.2516 14.6403L11.1016 13.7904C11.224 13.668 11.2306 13.4762 11.1215 13.3439C10.6254 12.7387 10.7147 11.849 11.3166 11.353C11.8392 10.9264 12.5899 10.9264 13.1124 11.353C13.2447 11.4621 13.4365 11.4522 13.5589 11.3331L14.637 10.255C15.1166 9.77545 15.1166 8.99828 14.637 8.51866L9.61992 3.49494ZM2.02323 7.21232L0.826062 6.01504C0.604391 5.79348 0.604391 5.43631 0.826062 5.21475L1.62967 4.41104C2.40363 4.79796 3.36928 4.65251 4.01415 4.02411C4.65582 3.40235 4.8046 2.43338 4.40772 1.63298L5.21143 0.829267C5.43299 0.607709 5.79016 0.607709 6.01183 0.829267L7.209 2.02655L7.59924 3.1808L3.17748 7.60256L2.02323 7.21232ZM14.1741 9.78529L13.2911 10.6683C12.3055 10.0764 11.0288 10.3972 10.4369 11.3795C10.04 12.0376 10.04 12.861 10.4369 13.5192L9.78541 14.1707C9.56373 14.3923 9.20656 14.3923 8.98501 14.1707L4.01747 9.20656L3.63719 8.07875L8.07875 3.63719L9.20656 4.01747L14.174 8.98501C14.3957 9.20656 14.3957 9.56373 14.1741 9.78529Z" fill="#24B361"/>
+												<path d="M10.6618 8.57451L9.74242 7.92632L9.75559 6.80183C9.7589 6.61998 9.61345 6.46777 9.42817 6.46777C9.35539 6.46777 9.28603 6.491 9.22641 6.53403L8.32691 7.20534L7.26192 6.84486C7.09003 6.78535 6.90143 6.87793 6.84192 7.05325C6.81881 7.12272 6.81881 7.19539 6.84192 7.26485L7.20241 8.32984L6.5311 9.22934C6.455 9.32868 6.44504 9.46086 6.50135 9.57335C6.55754 9.68253 6.67324 9.75188 6.79557 9.74856H6.79889L7.92339 9.73872L8.57158 10.6581C8.67744 10.8069 8.88252 10.8433 9.03129 10.7408C9.09091 10.6978 9.13715 10.6382 9.15706 10.5689L9.491 9.49393L10.5659 9.15999C10.7411 9.10701 10.8371 8.92184 10.7842 8.74652C10.7644 8.67705 10.7214 8.61754 10.6618 8.57451ZM9.13383 8.9152C9.03129 8.94828 8.94866 9.02759 8.91559 9.13344L8.73031 9.73208L8.36662 9.22282C8.30379 9.13676 8.20457 9.08721 8.09539 9.08721H8.09207L7.46368 9.09041L7.84076 8.58447C7.90691 8.49853 7.92339 8.38271 7.89031 8.28017L7.68856 7.68485L8.28388 7.88661C8.38642 7.923 8.50212 7.9032 8.58817 7.83706L9.09091 7.45998L9.08428 8.08837C9.08428 8.19755 9.13383 8.30009 9.22309 8.36291L9.73579 8.72672L9.13383 8.9152Z" fill="#24B361"/>
+											</svg>
+										</div>
+										<div class="v-content d-flex flex-column">
+											<span class=""><b>Event Invites</b></span>
+											<span class="v-text">Bulk invite contacts via event invite</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 p-0 v-each-item col-md-4 col-lg-3 col-sm-6">
+									<div class="v-each-item-inner my-2 m-sm-2 d-flex gap-2">
+										<div class="d-flex flex-column align-items-center v-container">
+											<div class="v-box"></div>
+											<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M14.4089 8.75022C14.7595 9.10076 14.7595 9.66964 14.4089 10.0202L13.3307 11.0983C12.5866 10.4865 11.4852 10.5924 10.8734 11.3398C10.3443 11.9847 10.3443 12.9107 10.8734 13.5556L10.0235 14.4055C9.67296 14.7562 9.10407 14.7562 8.75343 14.4055L3.72982 9.38526L3.25684 7.9829L3.27343 7.97638L7.97626 3.27343L7.9829 3.25684L9.38514 3.72982L14.4089 8.75022ZM9.22973 9.22973L10.4699 8.84613L9.41169 8.09539L9.42817 6.79889L8.38642 7.57618L7.15606 7.15938L7.57286 8.38974L6.79557 9.43149L8.09207 9.41501L8.84281 10.4732L9.22973 9.22973Z" fill="#77F7AA"/>
+												<path d="M10.4699 8.84606L9.22967 9.22967L8.84607 10.47L8.09534 9.41163L6.79895 9.42811L7.5728 8.38635L7.15601 7.15611L8.38636 7.57279L9.42811 6.79883L9.41163 8.09533L10.4699 8.84606Z" fill="#DEFFE8"/>
+												<path d="M7.97619 3.25338L7.98283 3.25658L7.97619 3.27317L3.27336 7.97612L3.25676 7.98264L3.25356 7.97612L1.84468 7.49982L0.594528 6.24966C0.243881 5.89913 0.243881 5.33025 0.594528 4.97971L1.57677 3.99415C2.24476 4.45054 3.17746 4.37455 3.78605 3.78575C4.39454 3.19707 4.45073 2.26117 3.99434 1.57659L4.9799 0.591024C5.33043 0.240492 5.89932 0.240492 6.24985 0.591024L7.5 1.84449L7.97619 3.25338Z" fill="#DEFFE8"/>
+												<path d="M9.61992 3.49494C9.58365 3.45854 9.54062 3.43211 9.49095 3.41563L8.23759 2.9922L7.81416 1.73884C7.79768 1.68918 7.77125 1.64615 7.73485 1.60987L6.4847 0.359716C6.0052 -0.119905 5.22791 -0.119905 4.74841 0.359716L3.76284 1.34196C3.65046 1.45434 3.63387 1.62967 3.72313 1.75864C4.10685 2.33084 4.03739 3.0849 3.55776 3.54781C3.06498 4.02411 2.31093 4.0969 1.76528 3.72313C1.63298 3.63387 1.45766 3.65035 1.34528 3.76284L0.359716 4.74841C-0.119905 5.22791 -0.119905 6.0052 0.359716 6.4847L1.60987 7.73485C1.64615 7.77125 1.68918 7.79768 1.73884 7.81416L2.99231 8.23748L3.41563 9.49095C3.43211 9.54062 3.45854 9.58365 3.49494 9.61992L8.51534 14.6403C8.99496 15.1199 9.77213 15.1199 10.2516 14.6403L11.1016 13.7904C11.224 13.668 11.2306 13.4762 11.1215 13.3439C10.6254 12.7387 10.7147 11.849 11.3166 11.353C11.8392 10.9264 12.5899 10.9264 13.1124 11.353C13.2447 11.4621 13.4365 11.4522 13.5589 11.3331L14.637 10.255C15.1166 9.77545 15.1166 8.99828 14.637 8.51866L9.61992 3.49494ZM2.02323 7.21232L0.826062 6.01504C0.604391 5.79348 0.604391 5.43631 0.826062 5.21475L1.62967 4.41104C2.40363 4.79796 3.36928 4.65251 4.01415 4.02411C4.65582 3.40235 4.8046 2.43338 4.40772 1.63298L5.21143 0.829267C5.43299 0.607709 5.79016 0.607709 6.01183 0.829267L7.209 2.02655L7.59924 3.1808L3.17748 7.60256L2.02323 7.21232ZM14.1741 9.78529L13.2911 10.6683C12.3055 10.0764 11.0288 10.3972 10.4369 11.3795C10.04 12.0376 10.04 12.861 10.4369 13.5192L9.78541 14.1707C9.56373 14.3923 9.20656 14.3923 8.98501 14.1707L4.01747 9.20656L3.63719 8.07875L8.07875 3.63719L9.20656 4.01747L14.174 8.98501C14.3957 9.20656 14.3957 9.56373 14.1741 9.78529Z" fill="#24B361"/>
+												<path d="M10.6618 8.57451L9.74242 7.92632L9.75559 6.80183C9.7589 6.61998 9.61345 6.46777 9.42817 6.46777C9.35539 6.46777 9.28603 6.491 9.22641 6.53403L8.32691 7.20534L7.26192 6.84486C7.09003 6.78535 6.90143 6.87793 6.84192 7.05325C6.81881 7.12272 6.81881 7.19539 6.84192 7.26485L7.20241 8.32984L6.5311 9.22934C6.455 9.32868 6.44504 9.46086 6.50135 9.57335C6.55754 9.68253 6.67324 9.75188 6.79557 9.74856H6.79889L7.92339 9.73872L8.57158 10.6581C8.67744 10.8069 8.88252 10.8433 9.03129 10.7408C9.09091 10.6978 9.13715 10.6382 9.15706 10.5689L9.491 9.49393L10.5659 9.15999C10.7411 9.10701 10.8371 8.92184 10.7842 8.74652C10.7644 8.67705 10.7214 8.61754 10.6618 8.57451ZM9.13383 8.9152C9.03129 8.94828 8.94866 9.02759 8.91559 9.13344L8.73031 9.73208L8.36662 9.22282C8.30379 9.13676 8.20457 9.08721 8.09539 9.08721H8.09207L7.46368 9.09041L7.84076 8.58447C7.90691 8.49853 7.92339 8.38271 7.89031 8.28017L7.68856 7.68485L8.28388 7.88661C8.38642 7.923 8.50212 7.9032 8.58817 7.83706L9.09091 7.45998L9.08428 8.08837C9.08428 8.19755 9.13383 8.30009 9.22309 8.36291L9.73579 8.72672L9.13383 8.9152Z" fill="#24B361"/>
+											</svg>
+										</div>
+										<div class="v-content d-flex flex-column">
+											<span class=""><b>Track Invites</b></span>
+											<span class="v-text">Get real time notification about guests</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--==================== features @::end ====================-->
+
+			<!-- section @::start -->
+			<section class="v-each-section" id="v-animations">
+				<div class="v-each-section-inner container-lg px-lg-0 py-5">
+					<div class="col-md-11 col-xl-10 mx-auto d-flex flex-column row-gap-5">
+						<div class="row col-12 m-0 my-5 justify-content-between row-gap-4 align-items-start v-faq">
+							<div class="col-lg-5 p-0">
+								<div class="v-animated-content">
+									<span class="v-badge"><b>FAQs</b></span>
+									<h1 class="v-content-title">
+										<b>Frequently Asked Questions</b>
+									</h1>
+									<span class="v-text col-lg-10">
+										We have compiled common questions to provide you with more information and enhance your overall experience.
+									</span>
+									<a href="" class="text-capitalize">Ask something else</a>
+								</div>
+							</div>
+							<div class="col-lg-7 p-0">
+								<div class="v-accordion-container">
+									<div class="accordion accordion-flush" id="faqAccordion">
+										<div class="accordion-item">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed"
+													type="button"
+													data-bs-toggle="collapse"
+													data-bs-target="#flush-collapseOne"
+													aria-expanded="false"
+													aria-controls="flush-collapseOne">
+													<span class="v-accordion-header-text">
+														<b>How do I send a one-time invite on Gate Africa?</b>
+													</span>
+												</button>
+											</h2>
+											<div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+												<div class="accordion-body">
+													<span class="v-text">
+														Cardify Virtual Cards are a feature offered by Cardify Africa, allowing users to create virtual debit cards for seamless
+														international online payments. These virtual cards can be generated using funds from your NGN or USD wallets. They come in
+														two types: the basic dollar card (Mastercard) and the standard dollar card (Visa). These cards enable you to make
+														purchases at online checkouts where debit cards are accepted.
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed"
+													type="button"
+													data-bs-toggle="collapse"
+													data-bs-target="#flush-collapseTwo"
+													aria-expanded="false"
+													aria-controls="flush-collapseTwo">
+													<span class="v-accordion-header-text">
+														<b>Can I use Gate Africa to pay my estate dues and utility bills?</b>
+													</span>
+												</button>
+											</h2>
+											<div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+												<div class="accordion-body">
+													<span class="v-text">
+														Funding your Cardify Virtual Cards is easy and convenient. You can leverage the funds in your NGN or USD wallets to create
+														and load your virtual debit cards. This means you can allocate a specific amount of money from your existing wallets to
+														your virtual cards, allowing you to have a dedicated balance for online transactions.
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed"
+													type="button"
+													data-bs-toggle="collapse"
+													data-bs-target="#flush-collapseThree"
+													aria-expanded="false"
+													aria-controls="flush-collapseThree">
+													<span class="v-accordion-header-text">
+														<b>How can I stay updated on community announcements and events?</b>
+													</span>
+												</button>
+											</h2>
+											<div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+												<div class="accordion-body">
+													<span class="v-text">
+														You can fund your virtual debit cards using your NGN or USDT wallets. This enables you to convert and allocate funds as
+														needed for your cards which is turn used for your online purchases.
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed"
+													type="button"
+													data-bs-toggle="collapse"
+													data-bs-target="#flush-collapseFour"
+													aria-expanded="false"
+													aria-controls="flush-collapseFour">
+													<span class="v-accordion-header-text">
+														<b>Can I use Gate Africa to communicate with my neighbors?</b>
+													</span>
+												</button>
+											</h2>
+											<div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+												<div class="accordion-body">
+													<span class="v-text">
+														Cardify Virtual Dollar Cards stand out as digital debit cards that users can create and fund with NGN and USDT. Offering
+														basic dollar cards (Mastercard) and standard dollar cards (Visa), they facilitate international online purchases, ensuring
+														seamless cross-border spendingoogle Play Store and enjoy the convenience of accessing our software on the go.
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="accordion-item">
+											<h2 class="accordion-header">
+												<button
+													class="accordion-button collapsed"
+													type="button"
+													data-bs-toggle="collapse"
+													data-bs-target="#flush-collapseFive"
+													aria-expanded="false"
+													aria-controls="flush-collapseFive">
+													<span class="v-accordion-header-text">
+														<b>Can I use Gate Africa to report an issue or maintenance request?</b>
+													</span>
+												</button>
+											</h2>
+											<div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+												<div class="accordion-body">
+													<span class="v-text">
+														Cardify Virtual Dollar Cards stand out as digital debit cards that users can create and fund with NGN and USDT. Offering
+														basic dollar cards (Mastercard) and standard dollar cards (Visa), they facilitate international online purchases, ensuring
+														seamless cross-border spendingoogle Play Store and enjoy the convenience of accessing our software on the go.
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row col-12 m-0 my-5 align-items-start">
+							<div class="col-lg-5 p-0">
+								<div class="v-animated-content">
+									<span class="v-badge text-uppercase"><b>testmonials</b></span>
+									<h1 class="v-content-title col-md-10 col-lg-7">
+										<b>Hear What Others Say</b>
+									</h1>
+									<span class="v-text col-md-10 col-lg-11 d-block">
+										Discover what our valued clients and partners have to say about their experiences working with us.
+									</span>
+								</div>
+							</div>
+							<div class="col-lg-7 p-0">
+								<div class="v-scrolling-container v-vertical row col-12 m-0 gap-3">
+									<div class="v-stack-col p-0 splide col-sm d-flex flex-md-column row-gap-3" id="v-left">
+										<div class="splide__track">
+											<div class="splide__list">
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-1.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Adebayo Olamide</b></h6>
+															<span class="v-subtext">September 02, 2023</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"Gate Africa has made life so much easier for me. I can pay my bills, manage my energy top-ups, and even pre-authorize visitors—all from the app. No more back-and-forth with security at the gate. It's convenient and saves me so much time!"
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-2.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Chiamaka Nwosu</b></h6>
+															<span class="v-subtext">November 09, 2023</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"Gate Africa has transformed the way we interact in our estate. The forum keeps us connected, and the access management is top-notch. Love it!"
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-3.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Mrs. Funmilayo Adeoti</b></h6>
+															<span class="v-subtext">February 17, 2024</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"Gate Africa has simplified estate management. The automation of bill collection and reconciliation has been a huge relief. I can track issues in real-time and communicate with residents efficiently, all from one platform."
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-4.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Joseph Agada</b></h6>
+															<span class="v-subtext">January 29, 2024</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"Gate Africa’s integration with our security system has improved how we manage estate access. The ability to pre-authorize visitors and generate access codes has streamlined our processes, making it easier to maintain security without delays."
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+											</div>
+										</div>
+									</div>
+									<div class="v-stack-col d-none d-sm-flex p-0 splide col-sm flex-md-column row-gap-3" id="v-right">
+										<div class="splide__track">
+											<div class="splide__list">
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-5.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Ngozi Okafor</b></h6>
+															<span class="v-subtext">August 30, 2023</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"The access control feature is a game-changer! I love being able to generate codes for my guests without having to call security. It’s fast, reliable, and really makes estate living feel more secure and organized."
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-6.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Ibrahim Musa</b></h6>
+															<span class="v-subtext">October 28, 2023</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"With Gate Africa, I no longer worry about managing my utility bills or energy tokens. The app does everything—from tracking payments to giving me instant access to statements. It’s simple and user-friendly!"
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+												<!-- each item @::start -->
+												<div class="v-each-item splide__slide">
+													<header class="d-flex align-items-center column-gap-3">
+														<span class="v-image">
+															<img src="./assets/media/images/avatar-7.jpeg" alt="" class="img-fluid" />
+														</span>
+														<div class="v-right-context">
+															<h6 class="v-name"><b>Kunle Adetola</b></h6>
+															<span class="v-subtext">September 02, 2023</span>
+														</div>
+													</header>
+													<div class="v-card-body">
+														<span class="v-text">
+															"Managing an estate has never been this seamless. With Gate Africa, I can easily monitor everything—from security access to utility management. It has significantly reduced administrative stress and made operations smoother."
+														</span>
+													</div>
+												</div>
+												<!-- each item @::end -->
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="row col-12 m-0 my-5 align-items-start row-gap-5 column-gap-4 d-none">
+							<div class="col-lg-5 p-0">
+								<div class="v-scrolling-container v-horizontal">
+									<div class="v-length px-3">
+										<h5><b>Popular platforms</b></h5>
+										<div class="splide" id="v-horizontal-scroll">
+											<div class="splide__track">
+												<div class="v-ads-icons splide__list">
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/amazon-ads.png" alt="" class="img-fluid" />
+													</span>
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/google-ads.png" alt="" class="img-fluid" />
+													</span>
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/twitter-ads.png" alt="" class="img-fluid" />
+													</span>
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/audiomack-ads.png" alt="" class="img-fluid" />
+													</span>
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/instagram-ads.png" alt="" class="img-fluid" />
+													</span>
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/linkedin-ads.png" alt="" class="img-fluid" />
+													</span>
+													<span class="v-image splide__slide" role="img">
+														<img src="./assets/media/images/spotify-ads.png" alt="" class="img-fluid" />
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<!-- section @::end -->
+
+			<!-- section @::start -->
+			<section class="v-each-section" id="v-cards">
+				<div class="v-each-section-inner container-lg px-0 py-5">
+					<div class="col-12 col-sm-11 col-lg-10 mx-auto">
+						<div class="row col-12 m-0 align-item-start row-gap-5">
+							<div class="col-12 col-md-6 p-0">
+								<div class="v-each-om2 px-3">
+									<span class="v-icon" data-aos="fade-up" data-aos-delay="200">
+										<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+											<path fill="currentColor" d="M7 3h2v18H7zM4 3h2v18H4zm6 0h2v18h-2zm9.062 17.792l-6.223-16.89l1.877-.692l6.223 16.89z" />
+										</svg>
+									</span>
+									<div class="v-content">
+										<h6 class="v-each-title" data-aos="fade-right"><b>Cardify Blog</b></h6>
+										<span class="v-each-subtext" data-aos-delay="200" data-aos="fade-right">
+											Stay updated with the latest news, tips, and insights from Cardify. Explore in-depth articles covering digital wallets, virtual
+											cards, and more to enhance your financial management skills.
+										</span>
+										<a href="" class="v-each-link">
+											<span class="v-link-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+														<path d="m14.68 20.5l5.21-5.21a1.212 1.212 0 0 0 0-1.724l-5.21-5.209" />
+														<path d="M3.751 3.5v7.286a3.643 3.643 0 0 0 3.643 3.643h12.847" />
+													</g>
+												</svg>
+											</span>
+											<span class="v-each-text" data-aos-delay="200" data-aos="fade-up">
+												<b>Visit cardify blog </b>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 p-0">
+								<div class="v-each-om2 px-3">
+									<span class="v-icon" data-aos="fade-up" data-aos-delay="200">
+										<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+											<path
+												fill="currentColor"
+												d="M2 8.25A3.25 3.25 0 0 1 5.25 5h6.5A3.25 3.25 0 0 1 15 8.25v7.5A3.25 3.25 0 0 1 11.75 19h-6.5A3.25 3.25 0 0 1 2 15.75zm17.257 9.438L16 15.44V8.562l3.257-2.249c1.161-.802 2.745.03 2.745 1.44v8.495c0 1.41-1.584 2.242-2.745 1.44" />
+										</svg>
+									</span>
+									<div class="v-content">
+										<h6 class="v-each-title"><b>Cardify Youtube Channel</b></h6>
+										<span class="v-each-subtext" data-aos-delay="200" data-aos="fade-right">
+											Watch tutorials, product reviews, and informative videos about Cardify's features. Subscribe to our channel for regular updates
+											and in-depth content to make the most out of Cardify.
+										</span>
+										<a href="" class="v-each-link">
+											<span class="v-link-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+														<path d="m14.68 20.5l5.21-5.21a1.212 1.212 0 0 0 0-1.724l-5.21-5.209" />
+														<path d="M3.751 3.5v7.286a3.643 3.643 0 0 0 3.643 3.643h12.847" />
+													</g>
+												</svg>
+											</span>
+											<span class="v-each-text" data-aos-delay="200" data-aos="fade-up">
+												<b>Visit cardify youtube channel</b>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 p-0">
+								<div class="v-each-om2 px-3">
+									<span class="v-icon" data-aos="fade-up" data-aos-delay="200">
+										<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+											<path
+												fill="currentColor"
+												d="M20 19V5c0-1.1-.9-2-2-2h-5.25v16h-1.5V3H6c-1.1 0-2 .9-2 2v14c-.55 0-1 .45-1 1s.45 1 1 1h16c.55 0 1-.45 1-1s-.45-1-1-1M9 13c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1m6 0c-.55 0-1-.45-1-1s.45-1 1-1s1 .45 1 1s-.45 1-1 1" />
+										</svg>
+									</span>
+									<div class="v-content">
+										<h6 class="v-each-title"><b>Cardify Knowledgebase </b></h6>
+										<span class="v-each-subtext" data-aos-delay="200" data-aos="fade-right">
+											Find answers to your questions with our comprehensive knowledgebase. Access detailed guides, FAQs, and support resources to
+											ensure seamless usage of all Cardify features and services.
+										</span>
+										<a href="" class="v-each-link">
+											<span class="v-link-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+														<path d="m14.68 20.5l5.21-5.21a1.212 1.212 0 0 0 0-1.724l-5.21-5.209" />
+														<path d="M3.751 3.5v7.286a3.643 3.643 0 0 0 3.643 3.643h12.847" />
+													</g>
+												</svg>
+											</span>
+											<span class="v-each-text" data-aos-delay="200" data-aos="fade-up">
+												<b>Visit cardify blog </b>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6 p-0">
+								<div class="v-each-om2 px-3">
+									<span class="v-icon" data-aos="fade-up" data-aos-delay="200">
+										<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+											<path
+												fill="currentColor"
+												d="M12 20q.45 0 .863-.05t.837-.15L12.5 18H9v-1l2-2h2v-3h-2l-1-1V9H7.8V7.275l2-2.95Q7.275 5.05 5.637 7.15T4 12h1v-2h4v2l-1 1v3H5.075q1.05 1.8 2.875 2.9T12 20m7.6-5.55q.2-.575.3-1.187T20 12q0-2.8-1.7-4.937T14 4.25V7l2 2v2h1.175zM12 22q-2.075 0-3.9-.788t-3.175-2.137T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22" />
+										</svg>
+									</span>
+									<div class="v-content">
+										<h6 class="v-each-title"><b>Cardify Links</b></h6>
+										<span class="v-each-subtext" data-aos-delay="200" data-aos="fade-right">
+											Discover all Cardify-related resources and tools in one convenient place. Access useful links for quick navigation and a richer
+											user experience, ensuring you get the most out of Cardify.
+										</span>
+										<a href="" class="v-each-link">
+											<span class="v-link-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+														<path d="m14.68 20.5l5.21-5.21a1.212 1.212 0 0 0 0-1.724l-5.21-5.209" />
+														<path d="M3.751 3.5v7.286a3.643 3.643 0 0 0 3.643 3.643h12.847" />
+													</g>
+												</svg>
+											</span>
+											<span class="v-each-text" data-aos-delay="200" data-aos="fade-up">
+												<b>Visit cardify links</b>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row col-12 m-0 align-items-start mt-5 pt-4 v-3csinds834f flex-column-reverse flex-md-row row-gap-5">
+							<div class="col-lg-7 col-md-6 d-flex align-items-center justify-content-center">
+								<figure class="v-phone-image" role="presentation" data-aos-delay="200" data-aos="zoom-in">
+									<img src="./assets/media/svg/phone-dashboard.svg" alt="" class="img-fluid" />
+								</figure>
+							</div>
+							<div class="col-lg-5 col-md-6">
+								<div class="mt-5 d-flex flex-column align-items-center align-items-md-start text-center text-md-start row-gap-3">
+									<ul class="v-user-count">
+										<span class="v-each" data-aos="fade-right">
+											<img src="./assets/media/images/avatar.jpg" alt="" class="img-fluid" />
+										</span>
+										<span class="v-each" data-aos-delay="100" data-aos="fade-right">
+											<img src="./assets/media/images/avatar.jpg" alt="" class="img-fluid" />
+										</span>
+										<span class="v-each" data-aos-delay="200" data-aos="fade-right">
+											<img src="./assets/media/images/avatar.jpg" alt="" class="img-fluid" />
+										</span>
+										<span class="v-each" data-aos-delay="300" data-aos="fade-right">
+											<img src="./assets/media/images/avatar.jpg" alt="" class="img-fluid" />
+										</span>
+										<span class="v-each" data-aos-delay="400" data-aos="fade-right">
+											<img src="./assets/media/images/avatar.jpg" alt="" class="img-fluid" />
+										</span>
+									</ul>
+									<h3 class="v-user-title-text">
+										<b> Join 50k+ people who use Cardify daily. </b>
+									</h3>
+									<div class="v-user-count-link flex-wrap flex-md-nowrap justify-content-center justify-content-sm-start row-gap-3">
+										<a href="" data-aos="fade-up">
+											<span class="v-icon" title="iPhone">
+												<img src="./assets/media/images/apple-icon.png" alt="" class="img-fluid" />
+											</span>
+											<span class="v-link-text text-nowrap"> Get on iPhone </span>
+										</a>
+										<a href="" data-aos-delay="200" data-aos="fade-up">
+											<span class="v-icon" title="iPhone">
+												<img src="./assets/media/images/playstore-icon.png" alt="" class="img-fluid" />
+											</span>
+											<span class="v-link-text text-nowrap"> Get on Android </span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section @::end -->
+
+			<!-- footer @::start -->
+			<footer class="v-footer-main" id="v-footer">
+				<div class="v-footer-inner container-xl">
+					<section class="v-main-footer col-12 col-sm-11 col-lg-10 mx-auto position-relative px-3 px-sm-0">
+						<div class="row col-12 m-0 align-items-start m-0 row-gap-4">
+							<div class="col-12 col-lg p-0 d-flex flex-column align-items-center align-items-lg-start">
+								<a href="" class="d-flex align-items-center justify-content-start">
+									<figure class="v-footer-logo" data-aos-delay="400" data-aos="fade-right">
+										<img src="./assets/media/images/gate-african-logo.png" alt="" class="img-fluid" />
+									</figure>
+								</a>
+								<figure class="v-footer-logo" role="presentation">
+									<img src="https://cards.cardify.co/assets/media/general_image/Cardify-Audit_Cut.jpg" alt="" class="img-fluid" />
+								</figure>
+							</div>
+							<div class="col-12 col-xl-6 p-0">
+								<nav class="v-footer-navigations row col-12 align-items-start m-0 column-gap-4 column-gap-md-3 row-gap-4">
+									<div class="col col-sm-5 col-md p-0 v-each-nav" data-aos-delay="200" data-aos="fade-right">
+										<h6 class="v-title">Use Cases</h6>
+										<ul class="v-each-nav-wrap">
+											<li class="v-each-nav-link">
+												<a href="https://cards.cardify.co/beta/index.html" class="v-link">For Residents</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="https://bills.cardify.co/beta/index.html" class="v-link">For Estate Managers</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="https://giftcards.cardify.co/beta/index.html" class="v-link">For Security Operators</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="https://business.cardify.co/beta/index.html" class="v-link">Other Use Cases</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col order-2 col-sm-5 order-3 order-lg-2 col-md p-0 v-each-nav" data-aos-delay="300" data-aos="fade-right">
+										<h6 class="v-title">Features</h6>
+										<ul class="v-each-nav-wrap">
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Access Control</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Forum & Community</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Payments</a>
+											</li>
+										</ul>
+									</div>
+									<div class="col-12 order-3 col-sm-5 col-md order-lg-3 p-0 v-each-nav" data-aos-delay="400" data-aos="fade-right">
+										<h6 class="v-title">Resources</h6>
+										<ul class="v-each-nav-wrap">
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Mobile Apps</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Knowledgebase</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">How to Videos</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Terms and Conditions</a>
+											</li>
+											<li class="v-each-nav-link">
+												<a href="" class="v-link">Privacy Policy</a>
+											</li>
+										</ul>
+									</div>
+								</nav>
+							</div>
+							<div class="col-12 col-lg p-0">
+								<div class="d-flex flex-column align-items-start align-items-lg-end row-gap-2 text-lg-end text-start">
+									<ul class="v-social-links d-flex align-items-center flex-nowrap column-gap-3">
+										<li class="v-social" title="Facebook">
+											<a href="" class="v-link">
+												<span class="v-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+														<path
+															fill="currentColor"
+															d="M9.602 21.026v-7.274H6.818a.545.545 0 0 1-.545-.545V10.33a.545.545 0 0 1 .545-.545h2.773V7a4.547 4.547 0 0 1 4.86-4.989h2.32a.556.556 0 0 1 .557.546v2.436a.557.557 0 0 1-.557.545h-1.45c-1.566 0-1.867.742-1.867 1.833v2.413h3.723a.533.533 0 0 1 .546.603l-.337 2.888a.545.545 0 0 1-.545.476h-3.364v7.274a.962.962 0 0 1-.975.974h-1.937a.961.961 0 0 1-.963-.974" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<li class="v-social" title="Instagram">
+											<a href="" class="v-link">
+												<span class="v-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+														<path
+															fill="currentColor"
+															d="M13.028 2c1.125.003 1.696.009 2.189.023l.194.007c.224.008.445.018.712.03c1.064.05 1.79.218 2.427.465c.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428c.012.266.022.487.03.712l.006.194c.015.492.021 1.063.023 2.188l.001.746v1.31a78.831 78.831 0 0 1-.023 2.188l-.006.194c-.008.225-.018.446-.03.712c-.05 1.065-.22 1.79-.466 2.428a4.883 4.883 0 0 1-1.153 1.772a4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.427.465a72.11 72.11 0 0 1-.712.03l-.194.006c-.493.014-1.064.021-2.189.023l-.746.001h-1.309a78.43 78.43 0 0 1-2.189-.023l-.194-.006a63.036 63.036 0 0 1-.712-.031c-1.064-.05-1.79-.218-2.428-.465a4.889 4.889 0 0 1-1.771-1.153a4.904 4.904 0 0 1-1.154-1.772c-.247-.637-.415-1.363-.465-2.428a74.1 74.1 0 0 1-.03-.712l-.005-.194A79.047 79.047 0 0 1 2 13.028v-2.056a78.82 78.82 0 0 1 .022-2.188l.007-.194c.008-.225.018-.446.03-.712c.05-1.065.218-1.79.465-2.428A4.88 4.88 0 0 1 3.68 3.678a4.897 4.897 0 0 1 1.77-1.153c.638-.247 1.363-.415 2.428-.465c.266-.012.488-.022.712-.03l.194-.006a79 79 0 0 1 2.188-.023zM12 7a5 5 0 1 0 0 10a5 5 0 0 0 0-10m0 2a3 3 0 1 1 .001 6a3 3 0 0 1 0-6m5.25-3.5a1.25 1.25 0 0 0 0 2.5a1.25 1.25 0 0 0 0-2.5" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<li class="v-social" title="Twitter/X">
+											<a href="" class="v-link">
+												<span class="v-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+														<path
+															fill="currentColor"
+															fill-rule="evenodd"
+															d="M24 4.309a9.8 9.8 0 0 1-2.828.775a4.94 4.94 0 0 0 2.165-2.724a9.9 9.9 0 0 1-3.127 1.196a4.925 4.925 0 0 0-8.39 4.49A13.97 13.97 0 0 1 1.671 2.9a4.9 4.9 0 0 0-.667 2.476c0 1.708.869 3.216 2.191 4.099A4.94 4.94 0 0 1 .964 8.86v.06a4.926 4.926 0 0 0 3.95 4.829a5 5 0 0 1-2.224.085a4.93 4.93 0 0 0 4.6 3.42a9.9 9.9 0 0 1-6.115 2.107q-.597 0-1.175-.068a13.95 13.95 0 0 0 7.548 2.212c9.057 0 14.009-7.503 14.009-14.01q0-.32-.014-.636A10 10 0 0 0 24 4.309" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<li class="v-social" title="Tiktok">
+											<a href="" class="v-link">
+												<span class="v-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+														<path
+															fill="currentColor"
+															d="M16.6 5.82s.51.5 0 0A4.278 4.278 0 0 1 15.54 3h-3.09v12.4a2.592 2.592 0 0 1-2.59 2.5c-1.42 0-2.6-1.16-2.6-2.6c0-1.72 1.66-3.01 3.37-2.48V9.66c-3.45-.46-6.47 2.22-6.47 5.64c0 3.33 2.76 5.7 5.69 5.7c3.14 0 5.69-2.55 5.69-5.7V9.01a7.35 7.35 0 0 0 4.3 1.38V7.3s-1.88.09-3.24-1.48" />
+													</svg>
+												</span>
+											</a>
+										</li>
+										<li class="v-social" title="Youtube">
+											<a href="" class="v-link">
+												<span class="v-icon">
+													<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+														<path
+															fill="currentColor"
+															fill-rule="evenodd"
+															d="M6.989 4.89a64.248 64.248 0 0 1 10.022 0l2.24.176a2.725 2.725 0 0 1 2.476 2.268c.517 3.09.517 6.243 0 9.332a2.725 2.725 0 0 1-2.475 2.268l-2.24.175a64.24 64.24 0 0 1-10.023 0l-2.24-.175a2.725 2.725 0 0 1-2.476-2.268a28.315 28.315 0 0 1 0-9.332a2.725 2.725 0 0 1 2.475-2.268zM10 14.47V9.53a.3.3 0 0 1 .454-.257l4.117 2.47a.3.3 0 0 1 0 .514l-4.117 2.47A.3.3 0 0 1 10 14.47"
+															clip-rule="evenodd" />
+													</svg>
+												</span>
+											</a>
+										</li>
+									</ul>
+									<ul class="v-mails">
+										<li class="v-each-main">
+											<a href="mailto:contact@cardify.co" class="v-each-mail">
+												<span class="v-text">support@gate.africa</span>
+											</a>
+										</li>
+										<li class="v-each-main">
+											<a href="mailto:support@cardify.co" class="v-each-mail">
+												<span class="v-text">@gateafrica</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</section>
+					<div class="v-main-footer col-12 col-sm-11 col-lg-10 px-3 px-md-0 px-lg-3 mx-auto position-relative">
+						<div class="row col-12 m-0 justify-content-between align-items-start m-0 row-gap-3">
+							<div class="v-text-content text- d-flex flex-column row-gap-4 mb-4 p-0 col-md-8 col-lg-7">
+								<span
+									class="v-text"
+									data-aos="fade-down"
+									style="color: var(--footer-link-clr); font-size: 0.9rem; line-height: 1.6; text-align: justify">
+									&copy; 2024 Gate Africa. All Rights Reserved. Any unauthorized use, duplication, or distribution of content is strictly prohibited and will be subject to legal action.
+								</span>
+								<span
+									class="v-text"
+									data-aos="fade-down"
+									data-aos-delay="200"
+									style="color: var(--footer-link-clr); font-size: 0.8rem; line-height: 1.6; text-align: justify">
+									"Gate Africa" is the trading name of GATE AFRICA TECH LIMITED, a private limited company registered in the United Kingdom.  "Gate Africa" is registered as GATENG  ESTATE TECHNOLOGY LIMITED in Nigeria. Copyright © 2024 Gate Africa. All rights reserved.
+								</span>
+								<span class="v-text" style="color: var(--primary-clr)"> 2022 - 2024 Cardify Africa. </span>
+							</div>
+							<div class="p-0 col-md-2">
+								<div class="v-rating d-flex align-items-stretch text-start text-md-end gap-2">
+									<span class="v-icon" role="img" title="Rating review">
+										<img src="./assets/media/svg/star-shape.svg" alt="" class="img-fluid" />
+									</span>
+									<span class="v-icon" role="img" title="Rating review">
+										<img src="./assets/media/svg/star-shape.svg" alt="" class="img-fluid" />
+									</span>
+									<span class="v-icon" role="img" title="Rating review">
+										<img src="./assets/media/svg/star-shape.svg" alt="" class="img-fluid" />
+									</span>
+									<span class="v-icon" role="img" title="Rating review">
+										<img src="./assets/media/svg/star-shape.svg" alt="" class="img-fluid" />
+									</span>
+									<span class="v-icon" role="img" title="Rating review">
+										<img src="./assets/media/svg/star-shape.svg" alt="" class="img-fluid" />
+									</span>
+								</div>
+								<div class="v-rating-subtext d-flex align-items-center justify-content-start justify-content-md-end column-gap-2 mt-1">
+									<span class="v-text"><b>Give us a review</b></span>
+									<span class="d-flex align-items-center column-gap-1">
+										<span class="v-icon">
+											<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path
+													d="M14 21.3522L20.0833 19.7233L22.625 28L14 21.3522ZM28 10.6541H17.2917L14 0L10.7083 10.6541H0L8.66667 17.2579L5.375 27.9119L14.0417 21.3082L19.375 17.2579L28 10.6541Z"
+													fill="currentColor" />
+											</svg>
+										</span>
+										<span class="v-text"><b>Trust a pilot</b></span>
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- footer @::end -->
+
+			<!-- offcanvas @::start  -->
+			<div class="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+				<div class="offcanvas-header">
+					<div>
+						<figure class="v-image-as-icon">
+							<img src="./assets/media/images/CardifyLogo.png" alt="" class="img-fluid" />
+						</figure>
+					</div>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<div class="v-mobile-navigation">
+						<ul class="v-menu-sidebar-inner">
+							<li class="v-link-container">
+								<ul class="v-main-links">
+									<li class="v-main-link-container">
+										<a href="" class="v-sidebar-link">
+											<span class="v-_asod0u">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<path
+														fill="currentColor"
+														d="M13.106 22h-2.212c-3.447 0-5.17 0-6.345-1.012c-1.175-1.012-1.419-2.705-1.906-6.093l-.279-1.937c-.38-2.637-.57-3.956-.029-5.083c.54-1.127 1.691-1.813 3.992-3.183l1.385-.825C9.8 2.622 10.846 2 12 2c1.154 0 2.199.622 4.288 1.867l1.385.825c2.3 1.37 3.451 2.056 3.992 3.183c.54 1.127.35 2.446-.03 5.083l-.278 1.937c-.487 3.388-.731 5.081-1.906 6.093C18.276 22 16.553 22 13.106 22"
+														opacity="0.5" />
+													<path fill="currentColor" d="M8.25 18a.75.75 0 0 1 .75-.75h6a.75.75 0 0 1 0 1.5H9a.75.75 0 0 1-.75-.75" />
+												</svg>
+												<span class="v-link-name"> Home </span>
+											</span>
+										</a>
+									</li>
+									<li class="v-main-link-container">
+										<button type="button" class="v-sidebar-link v-is-dropdown">
+											<span class="v-_asod0u">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<path
+														fill="currentColor"
+														d="M8.422 20.618C10.178 21.54 11.056 22 12 22V12L2.638 7.073a3.196 3.196 0 0 0-.04.067C2 8.154 2 9.417 2 11.942v.117c0 2.524 0 3.787.597 4.801c.598 1.015 1.674 1.58 3.825 2.709z" />
+													<path
+														fill="currentColor"
+														d="m17.577 4.432l-2-1.05C13.822 2.461 12.944 2 12 2c-.945 0-1.822.46-3.578 1.382l-2 1.05C4.318 5.536 3.242 6.1 2.638 7.072L12 12l9.362-4.927c-.606-.973-1.68-1.537-3.785-2.641"
+														opacity="0.7" />
+													<path
+														fill="currentColor"
+														d="M21.403 7.14a3.153 3.153 0 0 0-.041-.067L12 12v10c.944 0 1.822-.46 3.578-1.382l2-1.05c2.151-1.129 3.227-1.693 3.825-2.708c.597-1.014.597-2.277.597-4.8v-.117c0-2.525 0-3.788-.597-4.802"
+														opacity="0.5" />
+													<path
+														fill="currentColor"
+														d="m6.323 4.484l.1-.052l1.493-.784l9.1 5.005l4.025-2.011c.137.155.257.32.362.498c.15.254.262.524.346.825L17.75 9.964V13a.75.75 0 0 1-1.5 0v-2.286l-3.5 1.75v9.44A3.062 3.062 0 0 1 12 22c-.248 0-.493-.032-.75-.096v-9.44l-8.998-4.5c.084-.3.196-.57.346-.824a3.15 3.15 0 0 1 .362-.498l9.04 4.52l3.387-1.693z" />
+												</svg>
+												<span class="v-link-name"> Product </span>
+											</span>
+											<span class="v-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+													<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5l7 7l-7 7" />
+												</svg>
+											</span>
+										</button>
+										<div class="v-dropdown-container">
+											<ul class="v-sublinks-container">
+												<li class="v-sublink-item">
+													<a href="https://cards.cardify.co/beta/index.html" class="v-sublink">Dollar Cards</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="https://business.cardify.co/beta/index.html" class="v-sublink">Digital Cards</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="https://bills.cardify.co/beta/index.html" class="v-sublink">Bills</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="https://store.cardify.co/beta/index.html" class="v-sublink">Cardify Store</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="https://giftcards.cardify.co/beta/index.html" class="v-sublink">Gift Cards</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="v-main-link-container">
+										<button type="button" class="v-sidebar-link v-is-dropdown">
+											<span class="v-_asod0u">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<path
+														fill="currentColor"
+														d="M10 20h4c3.771 0 5.657 0 6.828-1.172C22 17.657 22 15.771 22 12c0-.442-.002-1.608-.004-2H2c-.002.392 0 1.558 0 2c0 3.771 0 5.657 1.171 6.828C4.343 20 6.23 20 10 20"
+														opacity="0.5" />
+													<path
+														fill="currentColor"
+														d="M5.25 13.5a.75.75 0 0 1 .75-.75h2a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75m0 3a.75.75 0 0 1 .75-.75h4a.75.75 0 0 1 0 1.5H6a.75.75 0 0 1-.75-.75" />
+													<path
+														fill="currentColor"
+														fill-rule="evenodd"
+														d="M17.197 12.293c-.323-.043-.72-.043-1.152-.043h-.09c-.433 0-.83 0-1.152.043c-.356.048-.731.16-1.04.47c-.31.309-.422.684-.47 1.04c-.043.323-.043.72-.043 1.152v.09c0 .433 0 .83.043 1.152c.048.356.16.731.47 1.04c.309.31.684.422 1.04.47c.323.043.72.043 1.152.043h.09c.433 0 .83 0 1.152-.043c.356-.048.731-.16 1.04-.47c.31-.309.422-.684.47-1.04c.043-.323.043-.72.043-1.152v-.09c0-.433 0-.83-.043-1.152c-.048-.356-.16-.731-.47-1.04c-.309-.31-.684-.422-1.04-.47m-2.371 1.529l-.003.001l-.001.003a.703.703 0 0 0-.042.177c-.028.21-.03.504-.03.997s.002.787.03.997a.702.702 0 0 0 .042.177l.001.003l.003.001a.702.702 0 0 0 .177.042c.21.028.504.03.997.03s.787-.002.997-.03a.702.702 0 0 0 .177-.042l.003-.001l.001-.003a.702.702 0 0 0 .042-.177c.028-.21.03-.504.03-.997s-.002-.787-.03-.997a.703.703 0 0 0-.042-.177l-.001-.003l-.003-.001a.702.702 0 0 0-.177-.042c-.21-.028-.504-.03-.997-.03s-.787.002-.997.03a.702.702 0 0 0-.177.042"
+														clip-rule="evenodd" />
+													<path
+														fill="currentColor"
+														d="M9.995 4h4.01c3.781 0 5.672 0 6.846 1.116c.846.803 1.083 1.96 1.149 3.884v1H2V9c.066-1.925.303-3.08 1.149-3.884C4.323 4 6.214 4 9.995 4" />
+												</svg>
+												<span class="v-link-name"> Company </span>
+											</span>
+											<span class="v-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+													<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5l7 7l-7 7" />
+												</svg>
+											</span>
+										</button>
+										<div class="v-dropdown-container">
+											<ul class="v-sublinks-container">
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">About us</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Contact Cards</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Career</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+									<li class="v-main-link-container">
+										<a href="" class="v-sidebar-link">
+											<span class="v-_asod0u">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<path fill="currentColor" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10" opacity="0.5" />
+													<path
+														fill="currentColor"
+														d="M12 7.75c-.621 0-1.125.504-1.125 1.125a.75.75 0 0 1-1.5 0a2.625 2.625 0 1 1 4.508 1.829c-.092.095-.18.183-.264.267a6.666 6.666 0 0 0-.571.617c-.22.282-.298.489-.298.662V13a.75.75 0 0 1-1.5 0v-.75c0-.655.305-1.186.614-1.583c.229-.294.516-.58.75-.814c.07-.07.136-.135.193-.194A1.125 1.125 0 0 0 12 7.75M12 17a1 1 0 1 0 0-2a1 1 0 0 0 0 2" />
+												</svg>
+												<span class="v-link-name"> FAQs </span>
+											</span>
+										</a>
+									</li>
+									<li class="v-main-link-container">
+										<button type="button" class="v-sidebar-link v-is-dropdown">
+											<span class="v-_asod0u">
+												<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+													<g fill="none">
+														<path fill="currentColor" d="M4 19v-7h16v7a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2" opacity="0.16" />
+														<path
+															stroke="currentColor"
+															stroke-linecap="round"
+															stroke-linejoin="round"
+															stroke-width="2"
+															d="M12 12v8m-8-9v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+														<path
+															stroke="currentColor"
+															stroke-linejoin="round"
+															stroke-width="2"
+															d="M6 4.5A2.5 2.5 0 0 1 8.5 2A3.5 3.5 0 0 1 12 5.5V7H8.5A2.5 2.5 0 0 1 6 4.5zm12 0A2.5 2.5 0 0 0 15.5 2A3.5 3.5 0 0 0 12 5.5V7h3.5A2.5 2.5 0 0 0 18 4.5z" />
+														<path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7h18v4H3zm9 4v10" />
+													</g>
+												</svg>
+												<span class="v-link-name"> Resources </span>
+											</span>
+											<span class="v-icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+													<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5l7 7l-7 7" />
+												</svg>
+											</span>
+										</button>
+										<div class="v-dropdown-container">
+											<ul class="v-sublinks-container">
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Blog</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Youtube channel</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Knowledgebase</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Links</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Cardify CSR</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Brand Assets</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Cardify Event Videos</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Cardify Ambassadors</a>
+												</li>
+												<li class="v-sublink-item">
+													<a href="" class="v-sublink">Humans of Cardify</a>
+												</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<!-- offcanvas @::end  -->
+		</div>
+		<script src="./assets/js/bootstrap.js"></script>
+		<script src="./assets/js/index.custom.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js"></script>
+		<script>
+			AOS.init();
+			const allScrollers = document.querySelectorAll(".v-scrolling-container .v-stack-col");
+			const horizontalScroll = document.querySelector(".v-scrolling-container #v-horizontal-scroll");
+
+			new Splide(horizontalScroll, {
+				type: "loop",
+				drag: "free",
+				focus: "center",
+				perPage: 3,
+				pagination: false,
+				arrows: false,
+				easing: "ease-in-out",
+				fixedHeight: "max-content",
+				autoScroll: {
+					speed: 0.3,
+				},
+			}).mount(window.splide.Extensions);
+
+			allScrollers.forEach((scroller) => {
+				const id = scroller.id;
+				let speedDirection;
+				switch (id) {
+					case "v-right":
+						speedDirection = 0.3;
+						break;
+					case "v-left":
+						speedDirection = -1 + 0.7;
+						break;
+					default:
+						speedDirection = 0.3;
+						break;
+				}
+				new Splide(scroller, {
+					type: "loop",
+					drag: "free",
+					direction: "ttb",
+					gap: "0.75rem",
+					pagination: false,
+					arrows: false,
+					height: "400px",
+					easing: "ease-in-out",
+					fixedHeight: "max-content",
+					focus: "center",
+					autoScroll: {
+						speed: speedDirection,
+					},
+				}).mount(window.splide.Extensions);
+			});
+		</script>
+	</body>
+</html>
