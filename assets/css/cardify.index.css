@@ -149,6 +149,20 @@
 	line-height: 1.2;
 	display: block;
 }
+#v-header .v-grid-container .v-each-grid-item .v-store-link .v-store-link-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 9rem;
+	border-radius: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+#v-header .v-grid-container .v-each-grid-item .v-store-link .v-store-link-image .img-fluid {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
 #v-header.v-variant .v-navigation .v-link {
 	font-size: 0.96rem;
 	color: var(--white);
@@ -481,7 +495,21 @@
 	color: var(--primary-clr);
 }
 #v-cards {
-	padding: 3rem 0 ;
+	padding: 3rem 0 0;
+}
+#v-cards .v-store-link .v-store-link-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 9rem;
+	border-radius: 5px;
+	overflow: hidden;
+	width: 100%;
+}
+#v-cards .v-store-link .v-store-link-image .img-fluid {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
 }
 #v-virtual-card .v-cards .v-each-card-inner {
 	margin: 10px;
@@ -694,6 +722,9 @@
 }
 #v-cards .v-user-count ~ .v-user-title-text {
 	color: var(--dark);
+}
+#v-cards .v-user-count .v-each:last-of-type {
+	background-color: var(--white);
 }
 #v-cards .v-user-count ~ .v-user-count-link {
 	display: flex;
